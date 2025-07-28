@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+body {
+    background: linear-gradient(to left, violet, rgb(60, 60, 205));
+}
+
+.note-app {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 4%;
+    padding-left: 10%;
+}
+
+#add-note-btn {
+    background-color: rgb(138, 43, 226);
+    color: white;
+    font-weight: 500;
+    border: none;
+    width: 100px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.notes-container {
+    padding: 20px;
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+}
+
+.text-container {
+    width: 200px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.textarea-container {
+    padding: 20px 30px 5px 5px;
+    width: 100%;
+    height:150px;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+    font-size: 18px;
+
+}
+
+.delete-btn {
+    background: transparent;
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    position: absolute;
+    top: 1px;
+    right: 15px;
+    cursor: pointer;
+    padding: 6px;
+}
